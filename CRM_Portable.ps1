@@ -1,5 +1,3 @@
-Add-Type -AssemblyName PresentationFramework
-
 # Function to create the folders and open them
 function Create-CRMFolder {
     $documentsPath = [Environment]::GetFolderPath('MyDocuments')
